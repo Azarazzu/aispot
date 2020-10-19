@@ -31,7 +31,7 @@ jobs:
 
       # run tests!
       - run: 
-	  name: gradle Java file
-	  command:
-	    javac PalindromeExample.java
-	    java PalindromeExample
+	       name: gradle Java file
+	       command:
+	         javac PalindromeExample.java
+	         java PalindromeExample
